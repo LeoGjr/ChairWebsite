@@ -1,0 +1,31 @@
+.contact-data {
+  width: 100%;
+  padding: 50px 20px;
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+}
+.contact-data p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 1rem 0;
+}
+.contact-data .btn {
+  max-width: 150px;
+}
+/* Responsive */
+@media (max-width: 420px) {
+  .contact-data {
+    border-radius: 1rem;
+  }
+  .contact-data p br {
+    display: contents;
+  }
+}
